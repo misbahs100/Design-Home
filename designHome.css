@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 13px 5px;
+    margin: auto;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 20px;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.text{
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+}
+.but{
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 20px;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid rgb(3, 29, 29);
+}
+
+
+body{
+    background-image: url(pic1.jpg);
+}
